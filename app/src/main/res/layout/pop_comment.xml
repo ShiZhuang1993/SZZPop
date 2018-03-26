@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_pop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eaeaea"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cancel"
+            style="@style/pop_comment_tv"
+            android:layout_gravity="center_vertical"
+            android:text="@string/cancel"
+            android:paddingLeft="3dp"
+            android:textColor="#777777"
+            android:textSize="14dp" />
+
+        <TextView
+            style="@style/pop_comment_tv"
+            android:gravity="center"
+            android:text="@string/comment"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            style="@style/pop_comment_tv"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:text="@string/confirm"
+            android:textColor="#777777"
+            android:paddingRight="3dp"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_input_comment"
+        android:hint="@string/input_comment"
+        android:textColorHint="#999999"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:gravity="start"
+        android:layout_marginBottom="5dp"/>
+
+</LinearLayout>

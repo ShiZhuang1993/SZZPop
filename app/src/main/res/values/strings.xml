@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SZZPop</string>
+
+    <string name="cancel">取消</string>
+    <string name="confirm">发布</string>
+    <string name="comment">评论</string>
+    <string name="input_comment">请输入评论...</string>
+</resources>
